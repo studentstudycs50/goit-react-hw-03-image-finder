@@ -8,7 +8,6 @@ class Modal extends Component {
         }
     }
 
-
     componentDidMount() { 
         window.addEventListener('keydown', this.closeModalEsk)
     }

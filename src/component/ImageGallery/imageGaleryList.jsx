@@ -8,9 +8,7 @@ const Images = ({images, modalIsOpen}) => {
             {images.map(image =>
                 <ImageGalleryItem
                 key={image.id}
-                    image={image}
-                    
-
+                image={image}
             />)}
         </ul>
     )
